@@ -22,7 +22,7 @@ def test_palindrome_empty():
     assert is_palindrome("") == True
 
 def test_palindrome_one_letter():
-    assert is_palindrome("") == True
+    assert is_palindrome("a") == True
 
 def test_palindrome_two_letters():
     assert is_palindrome("aa") == True
